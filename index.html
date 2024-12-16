@@ -21,6 +21,8 @@
    <link href="./css/cp_styles.css" rel="stylesheet" />
    <link href="./css/cp_media.css" rel="stylesheet" />
    <link href="./css/cp_animate.css" rel="stylesheet" />
+
+   <script src="./js/cp_spin.js"></script>
   
 </head>
 
@@ -128,8 +130,12 @@
          </p>    
      
          <p>
-            Click the play button to view this classic dance sequence.
+            Click the play button to view this classic dance sequence. To see the dance as it appeared on the movie set, go to the 
          </p>
+
+         <input type="checkbox" id="rotateVideo" />
+         <label for="rotateVideo"></label>
+
          <video controls poster="./media/cp_photo2.png">
             <source src="./media/cp_dance.mp4" type="video/mp4"/>
             <source src="./media/cp_dance.webm" type="video/webm"/>
